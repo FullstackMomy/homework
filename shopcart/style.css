@@ -1,0 +1,26 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    background-color: grey;
+    direction: rtl;
+    text-align: right;
+}
+    .product {
+        float: right;
+        background-color: white;
+        margin: 10px;
+    }
+    .product_img img {
+        width: 300px;
+        height: 300px;
+        padding: 15px;
+    }
+    .description {
+        padding: 15px;
+        font-size: 16pt;
+    }
+    .buttonimg button {
+        width: 200px;
+        height:100px;
+        margin: 15px;
+    }
