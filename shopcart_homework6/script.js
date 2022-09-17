@@ -6,10 +6,10 @@ let products = [
 ];
 
 let cartItems = [];
-function addToCart(productID) {
+function addToCart(productNum) {
   let selected;
   for (let i = 0; i < products.length; i++) {
-    if (productID == products[i][0]) {
+    if (productNum == products[i][0]) {
       selected = products[i];
       break;
     }
