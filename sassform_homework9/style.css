@@ -1,0 +1,79 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+#messages #success_message {
+  width: 100px;
+  padding: 10px 0;
+  color: white;
+  background-color: green;
+}
+#messages #Error_Message {
+  width: 100px;
+  padding: 10px 0;
+  color: white;
+  background-color: red;
+}
+
+html {
+  background-color: black;
+}
+
+header {
+  background-color: rgb(183, 214, 232);
+  background-size: cover;
+  height: 10%;
+}
+
+h1 {
+  font-weight: lighter;
+  color: white;
+  margin: 0%;
+  padding: 12px 0 0;
+  text-align: center;
+  font-size: 25px;
+}
+
+form {
+  background-image: linear-gradient(rgb(147, 189, 213), rgb(183, 214, 232));
+  background-size: cover;
+  color: white;
+  height: 90%;
+  padding: 10px;
+}
+
+input {
+  color: black;
+  border-radius: 7px;
+  border: none;
+  width: 100%;
+  padding: 10px 0;
+}
+
+#Reset {
+  width: 100px;
+  padding: 10px 0;
+  color: white;
+  background-color: rgb(109, 183, 213);
+}
+
+#Register {
+  width: 100px;
+  padding: 10px 0;
+  color: white;
+  background-color: rgb(49, 146, 187);
+}
+
+body {
+  margin: 0% auto;
+  height: 100vh;
+  width: 400px;
+}
+
+.buttons {
+  text-align: right;
+}
+
+/*# sourceMappingURL=style.css.map */
