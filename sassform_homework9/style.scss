@@ -17,11 +17,9 @@ $color8: rgb(49, 146, 187);
 #messages {
   #success_message {
     @include messageStyle($colory: $color1);
-    // @extend %buttonStyle;
   }
   #Error_Message {
     @include messageStyle($colory: $color2);
-    // @extend %buttonStyle;
   }
 }
 %buttonStyle {
@@ -33,19 +31,12 @@ $color8: rgb(49, 146, 187);
 html {
   background-color: $color3;
 }
-// %formStyle {
-//   font-family: Arial, Helvetica, sans-serif;
-//   margin: 0px;
-//   padding: 0px;
-// }
 header {
-  // @extend %formStyle;
   background-color: $color5;
   background-size: cover;
   height: 10%;
 }
 h1 {
-  // @extend %formStyle;
   font-weight: lighter;
   color: $color4;
   margin: 0%;
@@ -54,7 +45,6 @@ h1 {
   font-size: 25px;
 }
 form {
-  // @extend %formStyle;
   background-image: linear-gradient($color6, $color5);
   background-size: cover;
   color: $color4;
@@ -62,7 +52,6 @@ form {
   padding: 10px;
 }
 input {
-  // @extend %formStyle;
   color: $color3;
   border-radius: 7px;
   border: none;
@@ -77,12 +66,10 @@ input {
   @include messageStyle($colory: $color8);
 }
 body {
-  // @extend %formStyle;
   margin: 0% auto;
   height: 100vh;
   width: 400px;
 }
 .buttons {
-  // @extend %formStyle;
   text-align: right;
 }
