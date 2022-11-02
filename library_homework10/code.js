@@ -113,8 +113,8 @@ class User {
     this.#LivingCity = LivingCity;
     this.booksIBorrow = [];
   }
-  borrow() {
-    this.booksIBorrow.push(BorrowableBook.name);
+  borrow(BorrowableBook) {
+    this.booksIBorrow.push(BorrowableBook);
     alert(`You borrow the book:${BorrowableBook.name}.`);
   }
 }
